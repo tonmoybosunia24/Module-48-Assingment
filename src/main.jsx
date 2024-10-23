@@ -7,8 +7,9 @@ import {
 } from "react-router-dom";
 import Root from './Components/Root/Root';
 import Home from './Components/Home/Home';
-import AboutUs from './Components/AboutUs/AboutUs';
-import ContactUs from './Components/ContactUs/ContactUs';
+import ListedBooks from './Components/ListedBooks/ListedBooks';
+import PagesToRead from './Components/PagesToRead/PagesToRead';
+import BookDetails from './Components/BookDetails/BookDetails';
 
 const router = createBrowserRouter([
   {
@@ -20,12 +21,19 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: '/aboutUs',
-        element: <AboutUs></AboutUs>
+        path: '/listedBooks',
+        element: <ListedBooks></ListedBooks>,
+        loader: () => fetch('/Books.json')
       },
       {
-        path: '/contactUs',
-        element: <ContactUs></ContactUs>
+        path: 'book/:id',
+        element: <BookDetails></BookDetails>,
+        loader: ()=> fetch('../Books.json')
+      },
+      {
+        path: '/pagesToRead',
+        element: <PagesToRead></PagesToRead>,
+        loader: ()=> fetch('Books.json')
       }
     ]
   },

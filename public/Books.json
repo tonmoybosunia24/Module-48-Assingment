@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Guest List",
+    "author": "Lucy Foley",
+    "image": "https://images.penguinrandomhouse.com/cover/9780062868930",
+    "review": "A thrilling murder mystery set on a remote Irish island, where a wedding celebration turns deadly. With multiple perspectives and unexpected twists, the novel keeps readers on edge, exploring themes of jealousy, secrets, and revenge.",
+    "totalPages": 368,
+    "rating": 4.3,
+    "category": "Mystery",
+    "tags": ["Suspense", "Thriller"],
+    "publisher": "William Morrow",
+    "yearOfPublishing": 2020
+  },
+  {
+    "bookId": 2,
+    "bookName": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "image": "https://m.media-amazon.com/images/I/81nzxODnaJL._AC_UF1000,1000_QL80_.jpg",
+    "review": "A heart-wrenching and poignant tale of loneliness, love, and survival in the wild marshlands. The novel beautifully blends a coming-of-age story with a murder mystery, highlighting the emotional and psychological toll of isolation.",
+    "totalPages": 384,
+    "rating": 4.8,
+    "category": "Fiction",
+    "tags": ["Nature", "Romance"],
+    "publisher": "G.P. Putnam's Sons",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 3,
+    "bookName": "Becoming",
+    "author": "Michelle Obama",
+    "image": "https://m.media-amazon.com/images/I/81h2gWPTYJL._AC_UF1000,1000_QL80_.jpg",
+    "review": "An inspiring memoir that offers a deep and personal glimpse into the life of the former First Lady. From her childhood on the South Side of Chicago to her years in the White House, Michelle Obama’s story is one of resilience, hope, and determination.",
+    "totalPages": 448,
+    "rating": 4.9,
+    "category": "Biography",
+    "tags": ["Inspiration", "Memoir"],
+    "publisher": "Crown Publishing Group",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 4,
+    "bookName": "Educated",
+    "author": "Tara Westover",
+    "image": "https://m.media-amazon.com/images/I/81WojUxbbFL._AC_UF1000,1000_QL80_.jpg",
+    "review": "A powerful and thought-provoking memoir about the importance of education and breaking free from the past. Raised by survivalist parents in rural Idaho, Westover’s quest for knowledge takes her to Harvard and Cambridge, challenging her identity and her family ties.",
+    "totalPages": 352,
+    "rating": 4.7,
+    "category": "Memoir",
+    "tags": ["Education", "Resilience"],
+    "publisher": "Random House",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 5,
+    "bookName": "The Midnight Library",
+    "author": "Matt Haig",
+    "image": "https://images.penguinrandomhouse.com/cover/9780525559474",
+    "review": "A life-affirming novel that explores the infinite possibilities of one's life choices and their impact. Through the character of Nora Seed, who navigates a library filled with alternate versions of her life, the book encourages readers to reflect on regrets, choices, and the value of life.",
+    "totalPages": 304,
+    "rating": 4.6,
+    "category": "Fantasy",
+    "tags": ["Philosophy", "Life Choices"],
+    "publisher": "Canongate Books",
+    "yearOfPublishing": 2020
+  },
+  {
+    "bookId": 6,
+    "bookName": "Atomic Habits",
+    "author": "James Clear",
+    "image": "https://m.media-amazon.com/images/I/91bYsX41DVL._AC_UF1000,1000_QL80_.jpg",
+    "review": "An insightful guide on how small habits can lead to significant changes in personal and professional life. Clear offers practical strategies backed by scientific research, empowering readers to make lasting improvements in their daily routines through tiny, incremental changes.",
+    "totalPages": 320,
+    "rating": 4.9,
+    "category": "Self-help",
+    "tags": ["Productivity", "Habits"],
+    "publisher": "Avery",
+    "yearOfPublishing": 2018
+  }
+]
